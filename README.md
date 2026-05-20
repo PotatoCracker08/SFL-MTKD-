@@ -1,4 +1,4 @@
-SFL-MTKD++: Split ViT Federated Learning with Adaptive Multi-Teacher Distillation for Interpretable Malaria Diagnosis
+The code implementation of "SFL-MTKD++: Split ViT Federated Learning with Adaptive Multi-Teacher Distillation for Interpretable Malaria Diagnosis"
 
 #Abstract
 Data privacy regulations and domain hetero- geneity impede centralized deep learning for malaria diagnosis. We introduce SFL-MTKD++, a privacy-preserving Split Federated Learning framework augmented with Adaptive Multi- Teacher Knowledge Distillation. SFL-MTKD++ employs a distributed Vision Transformer archi- tecture and a feature bottleneck to collaboratively train across decentralized silos without exposing raw patient data. On a harmonized multi-source dataset, our framework achieves 97.64% accuracy and a 0.9948 ROC-AUC, significantly outperform- ing existing federated baselines. To ensure clin- ical trust, we integrate LIME and saliency map visualizations, demonstrating that high-fidelity, interpretable malaria diagnosis can be achieved without compromising patient privacy.
